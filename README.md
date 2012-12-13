@@ -54,3 +54,8 @@ Values can also be written:
     FortranIO.write_record(f, [1,2,3], int32(4), 5.0)
     close(f)
 ```
+
+TODO
+----
+
+Handle strings
