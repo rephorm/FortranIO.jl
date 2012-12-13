@@ -12,4 +12,8 @@ program gendata
   write(9) x
   write(9) y
   close(9)
+
+  open(unit=9, file="data2.bin", form='unformatted')
+  write(9) x,y
+  close(9)
 end program
