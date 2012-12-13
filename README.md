@@ -8,7 +8,7 @@ Example
 
 Assume we have some fortran code like the following that saves out data to `data.bin`.
 
-```fortran90
+```fortran
     integer*8 :: x(100)
     real*8 :: y(100)
     
@@ -34,7 +34,7 @@ An array of the appropriate size is returned by `FortranIO.read_record_array`.
 
 If, instead of two separate calls to `write` in the fortran code above, a single call had been used:
 
-```fortran90
+```fortran
     write(9) x, y
 ```
 
